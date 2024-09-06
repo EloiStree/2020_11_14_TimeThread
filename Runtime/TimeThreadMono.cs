@@ -7,7 +7,6 @@ using UnityEngine;
 
 public class TimeThreadMono : MonoBehaviour
 {
-
     public System.Threading.ThreadPriority m_priorityLevel = System.Threading.ThreadPriority.BelowNormal;
     public int m_sleepTimeInMs=10;
     public bool m_autoStart = true;
